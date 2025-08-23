@@ -6,6 +6,7 @@ import { RegisterComponent } from './core/auth/register/register.component';
 import { HomeComponent } from './features/home/home.component';
 import { DetailsComponent } from './features/details/details.component';
 import { NotfoundComponent } from './features/notfound/notfound.component';
+import { ContactusComponent } from './features/contactus/contactus.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -22,7 +23,8 @@ export const routes: Routes = [
         path: '',
         component: BlankLayoutComponent, children: [
             { path: 'home', component: HomeComponent, title: 'MyDoctor' },
-            { path: 'details', component: DetailsComponent, title: 'MyDoctor - Details' }
+            { path: 'details', component: DetailsComponent, title: 'MyDoctor - Details' },
+            { path: 'contact', component: ContactusComponent, title: 'MyDoctor - ContactUs' }
         ]
     },
     { path: '**', component: NotfoundComponent, title: 'NotFound Page' }
