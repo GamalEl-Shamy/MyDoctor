@@ -1,0 +1,95 @@
+.mySwiper {
+  height: 90vh;
+  /* background-color: rgba(205, 50, 50, 0.133); */
+  margin-top: -80px;
+}
+
+.mySwiper img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.mySwiper .slide-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .over-lay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mySwiper .caption {
+  background: rgba(0, 0, 0, 0.3);
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(100px); */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 700px;
+}
+
+.mySwiper .caption-right {
+  right: 10%;
+  left: auto;
+}
+
+.mySwiper h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.mySwiper h2 span {
+  color: #ffe082;
+}
+
+.mySwiper p {
+  color: #ffffffb6;
+  font-size: 18px;
+}
+
+.btns {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.btns button {
+  background-color: rgba(10, 24, 61);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+
+.btns button::before {
+  content: '';
+  position: absolute;
+  width: 95px;
+  height: 53px;
+  border-radius: 10px;
+  background-color: #ffe082;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.btns button:hover::before {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
