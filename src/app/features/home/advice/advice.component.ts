@@ -1,12 +1,12 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @Component({
-  selector: 'app-menu',
+  selector: 'app-advice',
   imports: [],
-  templateUrl: './menu.component.html',
-  styleUrl: './menu.component.css',
+  templateUrl: './advice.component.html',
+  styleUrl: './advice.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class MenuComponent {
+export class AdviceComponent {
 
 }

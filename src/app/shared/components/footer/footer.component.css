@@ -1,0 +1,41 @@
+footer {
+  background: linear-gradient(135deg, rgba(10, 24, 61, 0.8), rgba(0, 0, 0, 0.8));
+  padding: 30px 0px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.quick-linls {
+  color: #fff;
+}
+
+.quick-linls h2 {
+  margin-bottom: 40px;
+}
+
+.quick-linls ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quick-linls ul a li {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.quick-linls ul a li:hover {
+  transform: translateX(20px);
+  color: #ffe082;
+}

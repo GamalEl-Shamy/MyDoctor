@@ -1,7 +1,19 @@
 .mySwiper {
-  height: 90vh;
+  height: 92vh;
   /* background-color: rgba(205, 50, 50, 0.133); */
   margin-top: -80px;
+}
+
+.mySwiper {
+  --swiper-navigation-color: #ffe082;
+  --swiper-pagination-color: #ffe082;
+  /* --swiper-navigation-size: 50px; */
+}
+
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+  font-weight: 900;
+  font-size: 204px;
 }
 
 .mySwiper img {
