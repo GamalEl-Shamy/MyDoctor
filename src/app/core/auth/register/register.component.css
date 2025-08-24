@@ -1,0 +1,73 @@
+section {
+  background-image: linear-gradient(rgba(10, 24, 61, 0.6), rgba(255, 224, 130, 0.3)),
+    url(/images/imgi_32_medicora-clinic-img-contact-img.jpg);
+  height: 100vh;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: rgba(10, 24, 61, 0.8);
+  width: 600px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+input {
+  border: none;
+  outline: none;
+  color: #0a183d !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(255, 224, 130);
+}
+
+label {
+  color: rgb(10, 24, 61, 0.8);
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0a183d;
+  background-color: #ffe082;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #ffd54f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+a {
+  color: #ffe082;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ffd54f;
+  text-decoration: underline;
+}
