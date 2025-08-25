@@ -1,3 +1,8 @@
+::selection {
+  background-color: #0a183d;
+  color: #fff;
+}
+
 section {
   background-image: linear-gradient(rgba(10, 24, 61, 0.6), rgba(255, 224, 130, 0.3)),
     url(/images/imgi_32_medicora-clinic-img-contact-img.jpg);
@@ -19,8 +24,8 @@ input {
   border: none;
   outline: none;
   color: #0a183d !important;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 19px;
+  /* font-weight: 500; */
 }
 
 input:focus {
@@ -70,4 +75,33 @@ a {
 a:hover {
   color: #ffd54f;
   text-decoration: underline;
+}
+
+.form-select option[disabled] {
+  color: #9ca3af;
+}
+
+.form-select:focus {
+  border-color: #ffd54f !important;
+  transform: translateY(-1px);
+}
+
+.form-select:invalid {
+  color: #9ca3af;
+}
+
+.form-select:hover {
+  border-color: #ffd54f !important;
+}
+
+i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.spinner-border {
+  /* font-size: 10px; */
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
